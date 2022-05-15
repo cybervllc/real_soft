@@ -1,26 +1,26 @@
-import cv2                                # state of the art computer vision algorithms library
-import numpy as np                        # fundamental package for scientific computing
-import matplotlib.pyplot as plt           # 2D plotting library producing publication quality figures
-from pyntcloud import PyntCloud # open source library for 3D pointcloud visualisation
-import pyrealsense2 as rs                 # Intel RealSense cross-platform open-source API
-print("Environment Ready")
+import cv2                                
+import numpy as np                       
+import matplotlib.pyplot as plt          
+from pyntcloud import PyntCloud          
+import pyrealsense2 as rs                
 
-# Setup:
+
+
 pipe = rs.pipeline()
 cfg = rs.config()
 cfg.enable_device_from_file("/home/realsense/real_soft/tst.bag")
 profile = pipe.start(cfg)
 
-# Skip 5 first frames to give the Auto-Exposure time to adjust
+
 for x in range(5):
   pipe.wait_for_frames()
   
-# Store next frameset for later processing:
+
 frameset = pipe.wait_for_frames()
 color_frame = frameset.get_color_frame()
 depth_frame = frameset.get_depth_frame()
 
-# Cleanup:
+
 pipe.stop()
 print("Frames Captured")
 
