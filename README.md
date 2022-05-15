@@ -1,1 +1,2 @@
-# real_soft
+# Software for Remote Data Aquire
+## Realsense + Odissey
