@@ -5,10 +5,10 @@
 
 ### Форматы записи данных: BAG, RGB, Depth, RAW (АЭ)
 
-### Скачать dataset1 (5.5 Gb) https://ya.ru
-### Скачать dataset2 (5.5 Gb) https://ya.ru
-### Скачать dataset3 (5.5 Gb) https://ya.ru
-### Скачать dataset4 (5.5 Gb) https://ya.ru
+### Скачать dataset1 (2.22 Gb) https://disk.yandex.ru/d/5ty38rSydBylXQ
+### Скачать dataset2 (2.25 Gb) https://disk.yandex.ru/d/x3sSqdcnwXpXKQ
+### Скачать dataset3 (2.24 Gb) https://disk.yandex.ru/d/DCu9Wj_Ij0J49Q
+### Скачать dataset4 (3.03 Gb) https://disk.yandex.ru/d/tuTyJwk39tvQeg
 
 ### Примеры записей в каталогах /bag, /color, /depth, /acoustic
 ![color_2668336303](https://user-images.githubusercontent.com/105588545/168665272-d796337f-f530-48ac-bfda-fcef4dd4cda5.png)
